@@ -29,4 +29,4 @@ if invalid_user_input:
 '{{ cookiecutter.update({ "_project_name_kebab_case": cookiecutter.project_name|lower|replace(" ", "-") }) }}'
 '{{ cookiecutter.update({ "_project_name_lowercase_no_spaces": cookiecutter.project_name|lower|replace(" ", "") }) }}'
 '{{ cookiecutter.update({ "_project_name_camel_case": cookiecutter.project_name|title|replace(" ", "") }) }}'
-'{{ cookiecutter.update({ "_group_name_lowercase_no_spaces": cookiecutter.project_name|lower|replace(" ", "") }) }}'
+'{{ cookiecutter.update({ "_group_name_lowercase_no_spaces": cookiecutter.group_name|lower|replace(" ", "") }) }}'
