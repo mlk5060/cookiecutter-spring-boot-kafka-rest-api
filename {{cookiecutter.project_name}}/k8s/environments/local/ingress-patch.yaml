@@ -1,0 +1,3 @@
+- op: replace
+  path: /spec/rules/0/host
+  value: {{ cookiecutter._project_name_kebab_case }}.local
